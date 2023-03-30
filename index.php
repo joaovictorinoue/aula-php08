@@ -122,7 +122,7 @@ while ($contador <= 0) {
         }
 */
 
-$comidas = ['🍕', '🍔', '🍟', '🌭', '🍿', '🥨', '🥐'];
+/*$comidas = ['🍕', '🍔', '🍟', '🌭', '🍿', '🥨', '🥐'];
 
 
 echo "Comidas<br>";
@@ -134,3 +134,62 @@ while ($contador < $qtd) {
     echo " $comidas[$contador] <br>" ;
     $contador++;
 }
+
+
+#### ESTRUTURA DE DECISÃO
+
+$usuario = 'admin';
+
+$senha = 123;*/
+
+
+
+
+/*if($usuario == 'admin' && $senha == 321){
+
+    echo "Acesso liberado";
+
+}else{
+
+echo "Usuário ou senha inválido";
+
+}
+
+echo "<br>";*/
+
+#### ESTRUTURA DE REPETIÇÃO & ARRAY
+
+
+
+
+/*$produtos = ['👟', '👠', '🎮', '🌭','🥄','🧦']; # Array
+
+echo $produtos[0];
+echo $produtos[3];
+echo count($produtos);
+echo "<br>";
+
+$qtd = count($produtos);
+$i = 0;
+
+while ($i < $qtd) {
+    echo $produtos[$i];
+    $i++; // $i = $i + 1
+}*/
+
+
+echo $_POST["usuario"] ?? "";
+echo $_POST["nome"] ?? "";
+echo $_POST["sobrenome"] ?? "";
+echo $_POST["cep"] ?? "";
+echo $_POST["rua"] ?? "";
+echo $_POST["bairro"] ?? "";
+echo $_POST["cidade"] ?? "";
+echo $_POST["estado"] ?? "";
+echo $_POST["numero"] ?? "";
+echo $_POST["senha"] ?? "";
+echo $_POST["idade"] ?? "";
+echo $_POST["email"] ?? "";
+echo $_POST["telefone"] ?? "";
+
+?>
